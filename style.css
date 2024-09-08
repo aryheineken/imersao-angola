@@ -74,8 +74,12 @@ section button:hover {
     padding: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff; /* Fundo branco para contraste */
 }
+
+.item-resultado {
+    background-color: #fff; /* Fundo branco para contraste */
+} 
+
 
 @media (max-width: 768px) {
     .resultados-pesquisa {
@@ -180,7 +184,6 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 
-    .item-resultado {
-        display: none;
-    }
+ 
+    
 }
